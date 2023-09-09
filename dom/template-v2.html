@@ -1,0 +1,28 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app">
+  <p>{{ titulo}}</p>
+  <p>{{ saudacao() }}</p>
+</div>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      titulo: 'Usando VueJS'
+    },
+    methods: {
+      saudacao: function () {
+        return 'Bom final de semana!'
+      }
+    }
+  })
+</script>
+
+<!-- 
+  1º - Vue cria acessos diretos.
+  2º - O que é interpolado ou interpretado no template?
+    R: Interpretado ou Interpolado é o que está no padrão
+      Double Mustache = {{ algumacoisa }}, ele lê, executa, e
+      substituí por um valor textual. (String)
+ -->
