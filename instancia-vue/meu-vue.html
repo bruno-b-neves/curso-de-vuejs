@@ -1,0 +1,50 @@
+<meta charset="UTF-8">
+
+<div id="app">
+  {{ nome }} {{ sobrenome }} {{ 2 * 2 }} {{ Math.pow(2, 3) }}
+</div>
+
+<script>
+  function meuVue (params) {
+    this.$el = document.querySelector(params.el)
+    this.$data = params.data
+
+    for(let atr in this.$data) {
+      Object.defineProperty(this, atr, {
+        get: () => {
+          return this.$data[atr]
+        },
+        set: value => {
+          return this.$data[atr] = value
+        }
+      })
+    }
+
+    // Interpolar
+
+    const regex = /\{\{([\s\w)(,.+*]*)\}\}/g;
+    this.$el.innerHTML = this.$el.innerHTML.replace(regex, (match, $1) => {
+      const value = this[$1.trim()]
+      return value ? value : eval($1)
+    })
+  }
+
+  const vm = new meuVue ({
+    el: '#app',
+    data: {
+      nome: 'Bruno',
+      sobrenome: 'Neves'
+    }
+  })
+
+  console.log(vm.nome)
+  console.log(vm.$data.nome)
+
+  vm.nome = 'Felipe'
+  console.log(vm.nome)
+  console.log(vm.$data.nome)
+
+  // vm.$data.idade = 27
+  // console.log(vm.idade)
+
+</script>
