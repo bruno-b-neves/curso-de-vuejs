@@ -10,7 +10,7 @@ Após a introdução passamos por tópicos complexos e avançados.
 
 Os tópicos que o curso abordou foram:
 
-## DOM
+#### DOM
 - Estilos,
 - Eventos,
 - Propriedades Reativas,
@@ -18,11 +18,19 @@ Os tópicos que o curso abordou foram:
 - Interpolação,
 - Sintaxe Reduzida
 
-## Listas e Condicionais
+#### Listas e Condicionais
 - Listas 
 - Condicionais (v-if e v-show)
 
-## Projetos Desenvolvidos Durante o Curso
+#### Instância Vue
+- Multi Instância Vue
+- Meu Vue (Estudo do Vue "por baixo dos panos" de forma simples)
+- Dados Gerenciados
+- $el e $data
+- Instância Externa
+- $refs
+
+#### Projetos Desenvolvidos Durante o Curso
 - 01 - Projeto Monstro
-<br>O projeto monstro foi desenvolvido afim de aprofundamento de aprendizado, da DOM, das listas e das condicionais. <br>
-Sugiro que verifique o mesmo.
+<br><p>O projeto monstro foi desenvolvido afim de aprofundamento de aprendizado, da DOM, das listas e das condicionais.</p> <br>
+<p>Sugiro que verifique o mesmo.</p>
