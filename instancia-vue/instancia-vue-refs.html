@@ -2,8 +2,30 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
 <div id="app">
-  <h1>{{ aula }}</h1>
+  <!-- ref é do vue e não do HTML é usado sem : ou @ mesmo -->
+  <h1 ref="aulaRef">{{ aula }}</h1>
   <h2>{{ modulo }}</h2>
   <button @click="alterarAula">Alterar Aula</button>
   <button @click="alterarModulo">Alterar Módulo</button>
 </div>
+
+<script>
+  const vm = new Vue ({
+    el: '#app',
+    data: {
+      aula: 'Aula: Usando Refs',
+      modulo: 'Módulo: Intância Vue'
+    },
+    methods: {
+      alterarAula() {
+        this.aula += '#'
+      },
+      alterarModulo() {
+        this.modulo += '#'
+        console.log(this.$refs.aulaRef.innerText)
+      }
+    }
+  })
+
+  // vm.$refs.aulaRef.innerText = 'Alterando Diretamente :(' // Isso não é legal
+</script>
