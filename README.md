@@ -32,5 +32,5 @@ Os tópicos que o curso abordou foram:
 
 #### Projetos Desenvolvidos Durante o Curso
 - 01 - Projeto Monstro
-<br><p>O projeto monstro foi desenvolvido afim de aprofundamento de aprendizado, da DOM, das listas e das condicionais.</p> <br>
+<br><p>O projeto monstro foi desenvolvido afim de aprofundamento de aprendizado, da DOM, das listas e das condicionais.</p>
 <p>Sugiro que verifique o mesmo.</p>
