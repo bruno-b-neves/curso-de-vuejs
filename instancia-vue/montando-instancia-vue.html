@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app"></div>
+
+<script>
+  const vm = new Vue ({
+    // Template: pode-se usar '', "", ``
+    template: `
+      <div>
+        <!-- ref é do vue e não do HTML é usado sem : ou @ mesmo -->
+        <h1 ref="aulaRef">{{ aula }}</h1>
+        <h2>{{ modulo }}</h2>
+        <button @click="alterarAula">Alterar Aula</button>
+        <button @click="alterarModulo">Alterar Módulo</button>
+      </div>
+    `,
+    data: {
+      aula: 'Aula: Montando Instância Vue',
+      modulo: 'Módulo: Intância Vue'
+    },
+    methods: {
+      alterarAula() {
+        this.aula += '#'
+      },
+      alterarModulo() {
+        this.modulo += '#'
+      }
+    }
+  })
+
+  // vm.$mount('#app')
+  vm.$mount()
+  document.querySelector('#app').appendChild(vm.$el)
+</script>
