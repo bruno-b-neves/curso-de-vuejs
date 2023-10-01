@@ -29,6 +29,9 @@ Os tópicos que o curso abordou foram:
 - $el e $data
 - Instância Externa
 - $refs
+- Montando Template
+- Introdução a Componente
+- Ciclo de vida
 
 #### Projetos Desenvolvidos Durante o Curso
 - 01 - Projeto Monstro
