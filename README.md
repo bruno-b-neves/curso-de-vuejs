@@ -33,6 +33,20 @@ Os tópicos que o curso abordou foram:
 - Introdução a Componente
 - Ciclo de vida
 
+#### Vue-CLI
+- Projeto Simples
+<p>
+    O Projeto Simples, foi desenvolvido com a finalidade de ensinar a instalar o Vue-CLI, com detalhes de cada etapa da instalação, foi abordado o esquema de estrutura de pastas do Vue-CLI, e estrutura de cada arquivo e qual a finalidade de cada arquivo.
+</p>
+
+- Projeto Plugins
+<p>
+    Este teve a finalidade de abordagem no ensinamento de instalação de plugins no Vue-CLI, utilizando o NPM (Node Package Manager).
+</p>
+
+#### Componentes
+
+
 #### Projetos Desenvolvidos Durante o Curso
 - 01 - Projeto Monstro
 <br><p>O projeto monstro foi desenvolvido afim de aprofundamento de aprendizado, da DOM, das listas e das condicionais.</p>
