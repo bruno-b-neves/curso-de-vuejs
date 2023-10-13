@@ -45,7 +45,25 @@ Os tópicos que o curso abordou foram:
 </p>
 
 #### Componentes
+- Revisão
+<p>
+    Este arquivo revisou a forma de declaração de um componente global!
+</p>
 
+- Registro de componente
+<p>
+    Este arquivo trouxe como aprendizado a forma de declaração e registro de um componente global e local!
+</p>
+
+- Componente-Intro
+<p>
+    Está pasta se trata de um projeto (Vue-CLI), teve como finalidade o estudo sobre componente local e global, bem como a forma de declaração dos mesmos!
+</p>
+
+- Componente Desafio
+<p>
+    Está pasta teve como finalidade o aprofundamento dos estudos sobre componentes, onde tivemos que quebrar partes do código e tranforma-los em componentes!
+</p>
 
 #### Projetos Desenvolvidos Durante o Curso
 - 01 - Projeto Monstro
