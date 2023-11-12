@@ -47,7 +47,8 @@ Os tópicos que o curso abordou foram:
 #### Componentes
 - Revisão
 <p>
-    Este arquivo revisou a forma de declaração de um componente global!
+    Este arquivo revisou a forma de declaração de um componente global! E que fora passado em capítulos
+    anteriores de forma simplificada.
 </p>
 
 - Registro de componente
@@ -65,6 +66,26 @@ Os tópicos que o curso abordou foram:
     Está pasta teve como finalidade o aprofundamento dos estudos sobre componentes, onde tivemos que quebrar partes do código e tranforma-los em componentes!
 </p>
 
+- Componentes Avançados
+
+<p>
+    Na pasta teremos dois diretorios que são citacoes e comp-avançado-desafio.
+</p>
+
+<p>
+    Em citacoes, foi abordado no aprendizado o slot e componentes dinâmicos!
+    Onde temos a comunicação de pai para filho!
+</p>
+
+<p>
+    E em comp-avançado-desafio, foi disposto como forma de reforço no aprendizado, aplicando
+    o que fora passado em citacoes (slots e componentes dinâmicos).
+</p>
+
 #### Projetos Desenvolvidos Durante o Curso
 - 01 - Projeto Monstro
-<br><p>O projeto monstro foi desenvolvido afim de aprofundamento de aprendizado, da DOM, das listas e das condicionais.</p>
+
+<p>
+    O projeto monstro foi desenvolvido afim de aprofundamento de aprendizado, da DOM, das listas e das condicionais.
+</p>
+

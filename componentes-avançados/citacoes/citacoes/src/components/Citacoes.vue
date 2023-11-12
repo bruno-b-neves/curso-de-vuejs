@@ -12,7 +12,7 @@
     </div>
 </template>
 
-<script>
+<script lang="js">
 import Citacao from './Citacao.vue'
 export default {
     components: { Citacao },

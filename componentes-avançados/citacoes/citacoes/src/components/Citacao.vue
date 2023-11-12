@@ -19,7 +19,7 @@ export default {
     activated() {
         console.log('activated')
     },
-    desactivated() {
+    deactivated() {
         console.log('desactivated')
     }
 }
