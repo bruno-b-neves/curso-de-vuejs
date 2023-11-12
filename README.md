@@ -89,3 +89,11 @@ Os tópicos que o curso abordou foram:
     O projeto monstro foi desenvolvido afim de aprofundamento de aprendizado, da DOM, das listas e das condicionais.
 </p>
 
+- 02 - Tarefas 
+
+<p>
+    O projeto de Tarefas consistiu de reforço no aprendizado dos componentes, utilando props, $events, v-for, computeds, watch etc.
+    Nele tive uma nova abordagem do LocalStorage, para manter em cache o estado.
+    No projeto é possível, cadastrar novas tarefas, deletar tarefas criadas, mudar o estado para concluído e ainda temos uma barra de progresso que cresce quando concluída uma tarefa e diminui se a tarefa que não for concluída é excluída.
+</p>
+
